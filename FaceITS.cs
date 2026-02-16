@@ -535,7 +535,7 @@ public class FaceITS : BasePlugin
               {
                 "Stage": "FirstRound",
                 "Text": "[ЦРС^] LIVE!\n[ЦРС^] LIVE!\n[ЦРС^] LIVE!",
-                "Delay": 18,
+                "Delay": 23,
                 "Interval": -1
               },
 
@@ -579,7 +579,7 @@ public class FaceITS : BasePlugin
               {
                 "Stage": "BothReady",
                 "Command": "mp_warmup_end",
-                "Delay": 16,
+                "Delay": 17,
                 "Interval": -1
               },
 

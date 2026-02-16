@@ -557,14 +557,14 @@ public class FaceITS : BasePlugin
             "StageCommands": [
               {
                 "Stage": "BothReady",
-                "Command": "mp_warmuptime 17",
+                "Command": "mp_warmuptime 16",
                 "Delay": 1,
                 "Interval": -1
               },
 
               {
                 "Stage": "BothReady",
-                "Command": "mp_warmuptime_all_players_connected 17",
+                "Command": "mp_warmuptime_all_players_connected 16",
                 "Delay": 1,
                 "Interval": -1
               },

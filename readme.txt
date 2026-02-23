@@ -32,6 +32,7 @@ steamcmd.exe +login anonymous +app_update 730 validate +quit
 7.3 В файле этой же папке в файле gameinfo.gi:
 После строки "Game_LowViolence	csgo_lv // Perfect World content override" добавляем:
 Game	csgo/addons/metamod
+!ВНИМАНИЕ! При обновлении игры, файл gameinfo.gi сбрасывается!
 7.4 После запуска и загрузки сервера, пропишите "meta version" без кавычек в консоли, чтобы убедиться, что MMSource исправно установлен
 
 8. Установка CounterStrikeSharp:
@@ -72,3 +73,4 @@ Game	csgo/addons/metamod
 "css_plugins list"
 0.6 Полный перезапуск плагинов:
 "css_plugins restart НАЗВАНИЕ"
+

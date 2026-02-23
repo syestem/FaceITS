@@ -58,7 +58,6 @@ Game	csgo/addons/metamod
 10.10 В папке addons/counterstrikesharp/configs открыть файл core.json и изменить параметр FollowCS2ServerGuidelines на false
 10.11 Запустить сервер для генерации конфиг-файла (addons/counterstrikesharp/configs/plugins/WeaponPaints/WeaponPaints.json)
 10.12 Настройка плагина и веб версии хорошо описаны в этих видео: https://youtu.be/MJqhm-j7uYI?si=mCKWzfrjSUCkj7BZ и https://youtu.be/mFKBDarsHH0?si=367cNlHALb_JTsVS (всё абсолютно бесплатно)
-10.13 Готовый конфиг можно скачать по ссылке: https://disk.yandex.ru/d/DO7Ait209rFaFA. Установка - слияние папок addons
 
 0. Полезные команды:
 0.1 Смена имен (названий) команд:
@@ -71,5 +70,5 @@ Game	csgo/addons/metamod
 "mp_backup_restore_load_file backup_round??.txt" - где вопросы, подставить номер раунда
 0.5 Список плагинов:
 "css_plugins list"
-0.6 Полный перезапуск плагина:
+0.6 Полный перезапуск плагинов:
 "css_plugins restart НАЗВАНИЕ"

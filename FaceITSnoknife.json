@@ -1,0 +1,102 @@
+  {
+  "_comment_stage_help_1": "============================================================",
+  "_comment_stage_help_2": " FACEITS PLUGIN CONFIG (Stage system)",
+  "_comment_stage_help_3": " interval = -1 → вывод один раз",
+  "_comment_stage_help_4": " delay = задержка перед первым выводом",
+  "_comment_stage_help_5": " команды выполняются через StageCommands",
+  "_comment_stage_help_6": " multiline через \\n",
+  "_comment_stage_help_7": "============================================================",
+
+  "Texts": {
+    "StageMessages": [
+      {
+         "Stage": "Warmup",
+         "Text": "[ЦРС^] Доступные команды для капитана:\n- !tech — техническая пауза\n- !r / !ready — готовность",
+         "Delay": 0,
+         "Interval": 25
+      },
+
+      {
+        "Stage": "Ready1",
+        "Text": "[ЦРС^] Готовность капитанов: [1/2]",
+        "Delay": 0,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "BothReady",
+        "Text": "[ЦРС^] Готовность капитанов: [2/2]",
+        "Delay": 0,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "BothReady",
+        "Text": "[ЦРС^] Матч начнётся через 15 секунд!",
+        "Delay": 1,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "BothReady",
+        "Text": "[ЦРС^] LIVE!\n[ЦРС^] LIVE!\n[ЦРС^] LIVE!",
+        "Delay": 15,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "BothReady",
+        "Text": "[ЦРС^] Пожалуйста, имейте в виду, что во всех матчах включены овертаймы, ничьи в соревновательной игре отсутствуют.",
+        "Delay": 16,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "EveryRoundStart",
+        "Text": "[ЦРС^] КВЕРТИ — киберспорт начинается здесь!",
+        "Delay": 0,
+        "Interval": -1
+      }
+    ],
+
+    "StageCommands": [
+      {
+        "Stage": "BothReady",
+        "Command": "mp_warmuptime 16",
+        "Delay": 1,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "BothReady",
+        "Command": "mp_warmuptime_all_players_connected 16",
+        "Delay": 1,
+        "Interval": -1
+      },
+
+      {
+        "Stage": "BothReady",
+        "Command": "exec start",
+        "Delay": 14,
+        "Interval": -1
+      }
+    ],
+
+    "DamageHeader": "[ЦРС^] {TEAM1} [{CT} - {T}] {TEAM2}",
+    "DamageRow": "[ЦРС^] НАНЕС: [{DEALT} / {DEALTHITS} hits] ПОЛУЧИЛ: [{TAKEN} / {TAKENHITS} hits] - {NAME} [{HP} hp]",
+
+    "ChatPrefix": ""
+  },
+
+  "Commands": {
+    "CaptainSteamIds": [
+      ""
+    ],
+
+    "ReadyCommands": ["!r", "!ready"],
+    "TechCommand": "!tech",
+
+    "StayCommands": ["!stay"],
+    "SwitchCommands": ["!switch"]
+  }
+}  

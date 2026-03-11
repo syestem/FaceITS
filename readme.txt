@@ -62,7 +62,7 @@ Game	csgo/addons/metamod
 
 0. Полезные команды:
 0.1 Смена имен (названий) команд:
-"mp_teamname_1 ?" и "mp_teamname_2 ?"
+"mp_teamname_1 ?" - CT и "mp_teamname_2 ?" - T
 0.2 Старт тех паузы:
 "mp_pause_match"
 0.3 Стоп тех паузы:
@@ -73,4 +73,5 @@ Game	csgo/addons/metamod
 "css_plugins list"
 0.6 Полный перезапуск плагинов:
 "css_plugins restart НАЗВАНИЕ"
+
 

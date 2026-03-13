@@ -73,5 +73,7 @@ Game	csgo/addons/metamod
 "css_plugins list"
 0.6 Полный перезапуск плагинов:
 "css_plugins restart НАЗВАНИЕ"
+0.7 Правильное выключение сервера с сохранением демо-файла:
+"exec shutdown_server"
 
 
